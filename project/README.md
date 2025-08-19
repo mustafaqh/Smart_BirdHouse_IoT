@@ -59,40 +59,40 @@ We have been ispired by ```Magnus Elfwing , Fredrik Ahlgren``` watch [Project pr
 ### Wiring  
 IR sender: GND->> resistor ->> Emitter(LED)(cathode-> anode)->> 3V3.  
 IR reciever: GND ->>phototransistor (collector=white)->(emitter=green) ->>VIN.  
-![](/img/IR-.png)
+![](img/IR-.png)
 
-The transmitter requires resistance adapted to the driving voltage. for more information, please, read in [Hardware](/doc/hardware.md) under title ```IR barrier transmitter / receiver ```.  
+The transmitter requires resistance adapted to the driving voltage. for more information, please, read in [Hardware](doc/hardware.md) under title ```IR barrier transmitter / receiver ```.  
 The second pair is connected in parallel to the first. Each pair, sender, and receiver  are placed in front of each other as seen in the image below
 
 ### Imeges of the birdhouse and pycom device connecting:
 
-![](/img/pro2.png) ![](/img/pro4.jpg) 
+![](img/pro2.png) ![](img/pro4.jpg) 
 
 
 ### Imeges of the birdhouse and the pycom device in the box we printed:
 
-![](/img/birdbox.jpeg)
-![](/img/birdbox1.jpeg)
-![](/img/birdbox2.jpeg)
+![](img/birdbox.jpeg)
+![](img/birdbox1.jpeg)
+![](img/birdbox2.jpeg)
  
 
 ### Data visualization:
 In dashboard, we have chosen two widgets, temperature and humidity, for DHT sensor,  where two graphs show how recieved data changes over time. Bird in/out traffic is visualized in two tables in dashbord.  
 
-![](/img/signal.png)  
+![](img/signal.png)  
 
 The following picture shows four graphs that visualize received data (temperature, humidity, and birds in/out traffic).   
 Bird's traffic is shown in two separate graphs "Bird in" and "Bird out" where each point represents how many times the   
 bird has left or come back to its house during the last hour.
-![](/img/graph1.png)  
+![](img/graph1.png)  
 
 Folowing picture shows device's location(in our case linnaeus university).
-![](/img/graph.png)  
+![](img/graph.png)  
 
 For instance, the marked point on the graph in folowing picture shows that  
 the bird has left its house five times during the last hour.  
 
-![](/img/graph4.png)
+![](img/graph4.png)
 
 
 
@@ -125,7 +125,7 @@ we are aware of that functionality of pybytes is, somewhat, limited.
 - It offers ```location``` of the used device.  
 It enables easily a good estimation of battery power.  
 - According our last evaluation of required data in this early stage of birdhouse project, check
-[Requirements](/doc/requirements.md), we presume that Pybytes is a good choice, i.e. efficient.  
+[Requirements](doc/requirements.md), we presume that Pybytes is a good choice, i.e. efficient.  
 
 
 ###  Thoughts:
