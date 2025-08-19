@@ -45,11 +45,12 @@ We have been ispired by ```Magnus Elfwing , Fredrik Ahlgren``` watch [Project pr
 
 ## links 
 ------------
-* [Hardware](/doc/hardware.md)
-* [Requirements](/doc/requirements.md)
-* [Set up](/doc/setup.md)
-* [Test](/doc/test.md)
-* [Timelog](/doc/timelog.md)
+* [Hardware](doc/hardware.md)
+* [Requirements](doc/requirements.md)
+* [Set up](doc/setup.md)
+* [Test](doc/test.md)
+* [Timelog](doc/timelog.md)
+
 
 ## Results 
 -----------------
